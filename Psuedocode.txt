@@ -1,0 +1,33 @@
+1. 	STORE "mass" with any value
+	STORE "accleration" with any value
+	STORE "force" with any value
+	
+	CALCULATE "mass" times "acceleration" and STORE it as "force"
+	DISPLAY "force"
+==============================================================================
+2.	STORE "year" with any value
+	
+	IF 
+	CALCULATE "year" mod 4 equal to 0 AND
+	CALCULATE "year" mod 100 equal to Not 0 THEN
+		DISPLAY "Tahun Kabisat"
+	IF ELSE,
+	CALCULATE "year" mod 100 equal to 0 AND
+	CALCULATE "year" mod 400 equal to 0 THEN
+		DISPLAY "Tahun Kabisat"
+	ELSE	 
+		DISPLAY "Bukan Tahun Kabisat" 
+==============================================================================
+3.	STORE "pakaian" with 0
+	WHILE "pakaian" in washing machine < 20
+	add "pakaian" in washing machine by 1 
+	END WHILE
+==============================================================================
+4. 	STORE "student" with 1
+	WHILE "student" checked < 40
+		IF "student" has long nail THEN
+			DO Punish the "student"
+		ELSE
+			DO Give praise to "student"
+	add "student" checked by 1
+	END WHILE 

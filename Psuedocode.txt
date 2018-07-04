@@ -2,7 +2,9 @@
 	STORE "accleration" with any value
 	STORE "force" with any value
 	
-	CALCULATE "mass" times "acceleration" and STORE it as "force"
+	CALCULATE "mass" times "acceleration" 
+	SET "force" value with calculation result
+	
 	DISPLAY "force"
 ==============================================================================
 2.	STORE "year" with any value

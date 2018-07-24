@@ -1,4 +1,5 @@
-1. 	STORE "mass" with any value
+1. 	//PSUEDOCODE
+	STORE "mass" with any value
 	STORE "accleration" with any value
 	STORE "force" with any value
 	
@@ -6,8 +7,15 @@
 	SET "force" value with calculation result
 	
 	DISPLAY "force"
+
+	//ALGORITMA
+	1. declare variable 'mass', 'acceleration', and 'force' with any value
+	2. calculate the 'mass' times 'acceleration' and store the value to 'force'
+	3. display on console the 'force'
+	
 ==============================================================================
-2.	STORE "year" with any value
+2.	//PSUEDOCODE
+	STORE "year" with any value
 	
 	IF 
 	CALCULATE "year" mod 4 equal to 0 AND
@@ -19,13 +27,30 @@
 		DISPLAY "Tahun Kabisat"
 	ELSE	 
 		DISPLAY "Bukan Tahun Kabisat" 
+
+	//ALGORITMA
+	1. declare variable 'year' with any value
+	2. check the condition of 'year' If year modulus four is equal to 0 and year modulus by 100 is not equal to zero
+		2a. then display on console "tahun kabisat"
+	3. else, if 'year' modulus by 100 equal to zero and 'year' modulus 400 is equal to zero
+		3a. then display on console "tahun kabisat"
+	4. else, no condition above is meet then display on console "bukan tahun kabisat"
 ==============================================================================
-3.	STORE "pakaian" with 0
+3.	//PSUEDOCODE
+	STORE "pakaian" with 0
 	WHILE "pakaian" in washing machine < 20
 	add "pakaian" in washing machine by 1 
 	END WHILE
+
+	//ALGORITMA
+	1. declare variable 'pakaian' with inital value to zero
+	2. do looping to check each 'pakaian' in washing machine
+		2a. while the amount of 'pakaian' in washing machine is less than 20
+		2b. add another 'pakaian' in washing machine by 1 piece
+	3. end looping
 ==============================================================================
-4. 	STORE "student" with 1
+4. 	//PSUEDOCODE
+	STORE "student" with 1
 	WHILE "student" checked < 40
 		IF "student" has long nail THEN
 			DO Punish the "student"
@@ -33,3 +58,12 @@
 			DO Give praise to "student"
 	add "student" checked by 1
 	END WHILE 
+
+	//ALGORITMA
+	1. declare variable 'student' with initial value equal to one
+	2. do looping to check each student. while student is less then fourty
+		2a. check condition If the 'student' being checked has long nail then
+			2a1. do punish the 'student'
+		2b. else do give praise to 'student'
+		2c. add 'student' checked by 1
+	3. end looping
